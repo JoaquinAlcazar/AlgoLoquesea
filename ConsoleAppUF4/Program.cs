@@ -8,7 +8,8 @@ namespace UF4
         {
             employee empleao = new employee (new DateOnly(2000, 10, 18));
             Console.WriteLine(empleao.countage());
-            Console.WriteLine("Hola");
+            string aAlgo = "hola otra vez";
+            Console.WriteLine(aAlgo);
         }
     }
 }
